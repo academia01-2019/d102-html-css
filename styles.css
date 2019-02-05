@@ -1,0 +1,31 @@
+/* 
+SELETOR {
+  PROPRIEDADE: VALOR;
+}
+ */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #4343a0;
+}
+
+.nav-header a {
+  text-decoration: none;
+}
+
+.cor-vermelha {
+  color: red;
+}
+
+#header-pesquisa {
+  color: green;
+}
+
+/* ::placeholder é um pseudoelemento, e só existe quando há uma tag input */
+#header-pesquisa::placeholder {
+  color: aqua;
+}
