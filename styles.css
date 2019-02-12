@@ -38,8 +38,10 @@ textarea {
   background-color: lightgray;
   border-radius: 10px;
   box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.1);
+  /*box shadow adiciona uma sombra no elemento, o primeiro número é o valor do eixo X, o segundo é o valor do eixo Y, o terceiro é o blur ("borrado"), o quarto é espalhamento e o quinto é a cor que vc quer que a sombra tenha, na cor usamos o rgba para definir uma cor e uma opacidade.*/
 }
 
+/*A vírgula seleciona duas tags para estilizar, aplicando o estilo nos dois elementos*/
 .formulario-contato p, .formulario-contato h3 {
   font-size: 18pt;
 }
@@ -61,5 +63,5 @@ img:hover {
 }
 
 button {
-  cursor: pointer;
+  cursor: pointer; /*troca o cursor para a mãozinha, deixando com cara de clicável*/
 }
